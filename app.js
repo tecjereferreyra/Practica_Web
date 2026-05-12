@@ -1,11 +1,15 @@
 alert("Hola somos Maia y Jeremías");
 console.log("Hola");
 
-
 document.querySelector("#boton").onclick = function(){
-document.body.style.backgroundColor = "lightblue";
-}
+ document.body.style.background = "lightblue";
+ 
+   document.querySelector('input[type="text"]').value = "";
 
+    document.querySelector('input[type="email"]').value = "";
+
+    document.querySelector("textarea").value = "";
+}
 
 let tituloCurso = "Curso de Frontend";
 let descripcionCurso= "Aprendemos lenguajes como Python, Java y JavaScript."
