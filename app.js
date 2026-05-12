@@ -1,7 +1,6 @@
 alert("Hola somos Maia y Jeremías");
 console.log("Hola");
 
-document.querySelector('.title').innerHTML = "Hola a todos.";
 
 document.querySelector("#boton").onclick = function(){
 document.body.style.backgroundColor = "lightblue";
