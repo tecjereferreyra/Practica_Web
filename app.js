@@ -5,7 +5,7 @@ let precioCurso = 10000;
 let estadoCurso = "Disponible";
 
 
-document.getElementById("tituloCurso").innerHTML = tituloCurso;
-document.getElementById("descripcionCurso").innerHTML = descripcionCurso;
-document.getElementById("precioCurso").innerHTML = "El precio es: $"+precioCurso;
-document.getElementById("estadoCurso").innerHTML = estadoCurso;
+document.getElementById("#tituloCurso").innerHTML = tituloCurso;
+document.getElementById("#descripcionCurso").innerHTML = descripcionCurso;
+document.getElementById("#precioCurso").innerHTML = "El precio es: $"+precioCurso;
+document.getElementById("#estadoCurso").innerHTML = estadoCurso;
